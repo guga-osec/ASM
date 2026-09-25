@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="Pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/ASM_icon.ico" type="image/x-icon">
+    <script src="commands.js" defer>
+    </script>
+</head>
+<body>
+    <div id="divlogo">
+        <img src="images/ASM_logo.png" alt="" id="logo">
+        <img src="images/ASM_redlogo.png" alt="" id="logo_hover">
+    </div>
+    
+    <p style="text-align: center; margin-top: 0px">Auxiliary Search Mechanism</p>
+    <div id="divbarra">
+
+        <img src="images/search_logo.png" alt="" id="search_icon">
+
+        <input 
+            type="search" 
+            placeholder="Pesquisa..." 
+            id="barra_pesquisa"
+        >
+
+        <div class="dropdown">
+
+            <a href="pages/options_search.html" id="options_link">
+                <img src="images/options_logo.png" alt="Opções" id="options_image">
+            </a>
+
+            <div class="dropdown-content">
+                <div class="options">
+
+                    <input type="checkbox" name="" id="" value="pt_site">
+
+                    <p class="paragraph_option" style="margin-top: 10px;">Apenas sites: <span style="color:rgb(7, 173, 7)">p</span><span style="color: red">t</span></p>
+                </div>
+                <div class="options">
+                    <input type="checkbox" name="" id="" value="Exatamente">
+                    <p class="paragraph_option" style="text-decoration: underline;">Procura Exatamente</p>
+                </div>
+                <div class="options">
+                    <input type="checkbox" name="" id="" value="PDF_just_opt">
+                    <p class="paragraph_option"> Apenas <span style="color:red">PDF' s</span></p>
+                </div>
+                <div class="options">
+                    <input type="checkbox" name="" id="" value="docx_just_opt">
+                    <p class="paragraph_option"> Apenas <span style="color:blue">Docx' s</span></p>
+                </div>
+                <div class="options">
+                    <input type="checkbox" name="" id="" value="xlsx_just_opt">
+                    <p class="paragraph_option"> Apenas <span style="color:green">xlsx' s</span></p>
+                </div>
+                <p style="color: rgb(0, 157, 255); margin: 0px; display: inline;">&#8594;</p>
+                <a href="pages/options_search.html" class="link_redirecionamento"> Ver mais opções </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+</div>
+</body>
+</html>
