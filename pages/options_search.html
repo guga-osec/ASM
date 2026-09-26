@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Options choose</title>
+
+    <link
+        rel="stylesheet"
+        href="../pages/styles/options_search.css"
+    >
+
+    <link
+        rel="shortcut icon"
+        href="../images/ASM_icon.ico"
+        type="image/x-icon"
+    >
+
+    <script
+        src="../commands.js"
+        defer>
+    </script>
+
+</head>
+
+
+<body>
+
+    <div id="title_choose">
+
+        <div class="images_container">
+
+            <img
+                src="../images/ASM_redicon.png"
+                alt=""
+                class="small_images"
+                id="main_image"
+            >
+
+            <a href="../main.html">
+
+                <img
+                    src="../images/ASM_icon.png"
+                    class="small_images"
+                    id="hover_image"
+                    alt=""
+                >
+
+            </a>
+
+        </div>
+
+        <h1>
+            Advanced Choosing
+        </h1>
+
+    </div>
+
+    <p style="font-size: 18px; margin: 0px;margin-left: 15px;">When u done, just go to the previous page and search what u want </p>
+
+
+
+
+    <div id="main_div_choices">
+
+        <div id="main_div_input_choices">
+
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Site especifico:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Tipo de ficheiro:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Titulo na página:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Conteúdo na página:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Conteúdo na url:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Url's na página:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Páginas associadas:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+
+            <div class="div_input_choices">
+
+                <p>
+                    Retirar alguma palavra:
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+            <div class="div_input_choices">
+
+                <p>
+                    Data (antes de):
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+
+            <div class="div_input_choices">
+
+                <p>
+                    Data (depois de):
+                </p>
+
+                <input
+                    type="text"
+                    class="inputs_choices"
+                >
+
+            </div>
+        </div>
+
+    </div>
+
+    <div style="margin-left: 10px;">
+
+        <input
+            type="file"
+            id="fileInput"
+            hidden
+            accept=".json"
+        >
+
+
+        <label
+            for="fileInput"
+            class="file_button"
+        >
+            Escolher ficheiro
+        </label>
+
+
+        <span id="fileName"></span>
+        <div style="display: flex;">
+            <button id="button">
+                Carregar JSON
+            </button>
+
+
+            <button id="removeButton">
+                Remover consulta
+            </button>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
