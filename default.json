@@ -1,0 +1,16 @@
+
+
+{
+    "exactly": "\"test\"",
+    "site": "site:.pt",
+    "file_type": "filetype:pdf",
+    "page_title": "intitle:\"Title frase\"",
+    "page_intext": "intext:\"Text frase\"",
+    "page_url": "inurl:\"Url frase\"",
+    "pages_associated": "related:",
+    "minus": "-\"word or phrase to eliminate from the search\"",
+    "before": "before:10/11/2026",
+    "after": "after:10/11/2022",
+    "_comment" : "this is a example (U can put more, just do \"name u want\" : \"the expression and what u want to search\", and be careful because when u do double quotes u need to put \" so that the json file knows that it doesnt mean the \"code\" is over)"
+
+}
