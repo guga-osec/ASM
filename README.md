@@ -1,4 +1,4 @@
-# ASM 
+# ASM 🔎🕵️
 Auxiliary Search Mechanism
 
 This is a Website made for people who maybe don't have more than the basic knowledge of google and search engines.
@@ -26,7 +26,7 @@ If you click the 3 lines you going to the advanced search page.
 
 ### Default JSON file
 
-{
+{<br>
     "exactly": "\"test\"", <br>
     "site": "site:.pt", <br>
     "file_type": "filetype:pdf", <br>
