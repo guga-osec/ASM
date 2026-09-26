@@ -24,6 +24,13 @@ If you click the 3 lines you going to the advanced search page.
   To go to the previous page just click the icon in the top left corner.
   (If you load a file don't check anything but the exactly checkbox (if you want to ))
 
+### Process📍
+Initially I wanted to do this because of a friend of mine that was going to college and didn't know how to search specifically things, like the domain, etc..
+
+So I did some documents for him explaining the google dorking (It could help him with it as helped me in the past), but after that I started thinking.. 
+
+Why don't I do a site that maybe, just maybe, would be able to help him more easily, and then I started this project It took more or less than 3 weeks ( with help as I said before).
+
 ### Default JSON file
 <pre>
   {
@@ -41,6 +48,8 @@ If you click the 3 lines you going to the advanced search page.
   
   }
 </pre>
+
+
 
 
 
